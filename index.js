@@ -1,0 +1,1 @@
+Object.defineProperty(exports,"__esModule",{value:!0});var hgid=function(){for(var r="",i=32;i>0;i--){var d=Date.now(),e=256-8*i;e*=256,e*=8*Math.random()+4,e/=3,e*=d<<4,e*=1,e=parseInt(""+Math.abs(e)),e%=16,r+=e=e.toString(16)}return r};exports.hgid=hgid
